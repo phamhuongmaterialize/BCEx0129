@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.phamt.bcex0129">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LoginMainActivity"/>
+        <activity android:name=".activity.LoginActivity"/>
+        <activity android:name=".activity.MainTabActivity"/>
+        <activity android:name=".activity.DeviceDetailActivity"/>
+        <activity android:name=".activity.DeviceChangeNameActivity"/>
+        <activity android:name=".activity.DeviceSwitchTimeActivity"/>
+        <activity android:name=".activity.DeviceContentRenderingActivity"/>
+        <activity android:name=".activity.DeviceSlideEffectActivity"/>
+    </application>
+
+</manifest>
